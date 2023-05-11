@@ -1,8 +1,13 @@
 private _westCasualty = "USARMY" call FUNC(CasualtyPercentage); //Gets the casualty percentage of team "USARMY"
 //private _eastCasualty = "VDV" call FUNC(CasualtyPercentage); //Gets the casualty percentage of team "VDV"
+private _delivered = ["USARMY", "Delivery", 0.8] call FUNC(hasExtracted);
 
 if (_westCasualty >= 75) exitWith {
 	"INSURGENT VICTORY<br />US ARMY has retreated due to casualties." call FUNC(EndMission);
+};
+
+if (_delivered) exitWith {
+	"US ARMY SUCCESS<br />US ARMY has delivered the goods..." call FUNC(SoftEndMission);
 };
 
 //if (_eastCasualty >= 75) exitWith {
@@ -31,6 +36,6 @@ Alternative methods of counting casualties
 
 Adding extraction
 
-	["USARMY", "ExtractionAreaMarker", 0.8] call FUNC(hasExtracted);
+	["USMC", "ExtractionAreaMarker", 0.8] call FUNC(hasExtracted);
 		this will check if at least 80% of remaining forces are present in extraction area
 */
