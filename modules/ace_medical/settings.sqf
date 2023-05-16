@@ -2,7 +2,7 @@ ACE_medical_medicSetting_SurgicalKit = 1;	//2: Doctor, 1: Medic, 0: Normal
 ACE_medical_medicSetting_PAK = 2;			//See FW_fnc_ACEM_assignMedic
 
 ACE_medical_useLocation_SurgicalKit = 3;	//0: Field, 1: Medical Vehicle, 2: Medical Facility, 3: Vehicle OR Facility
-ACE_medical_useLocation_PAK = 2;
+ACE_medical_useLocation_PAK = 3;
 
 ACE_medical_useCondition_SurgicalKit = 1;	//0: Anytime, 1: Stable Only
 ACE_medical_useCondition_PAK = 1;

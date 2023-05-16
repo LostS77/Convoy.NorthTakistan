@@ -1,5 +1,9 @@
 NEWTAB("V. Mission notes:") //This is shown for everyone
-Please note for medical team. You can only do stiching from within the Medical Vehicle.  So anyone who requires medical attention, needs to make their way back to Medical Attachment vehicle, or they need to move forward.<br />
+Please note for medical team. You can only do stitching from within the Medical Vehicle.  So anyone who requires medical attention, needs to make their way back to Medical Attachment vehicle, or they need to move forward.<br />
+Lead Doctor - Is a Doctor with a higher skill in medical actions.<br />
+All other medics are Combat Medics - They can still stitch and stuff, just not at skilled.<br />
+All Engineers and Explosive Specialist are members of EOD<br />
+You can use the supply trucks to repair/rearm/refuel platoon vehicles, but try to not use all of the resources<br />
 ENDTAB;
 
 NEWTAB("VI. Thank You:") //This is shown for everyone
