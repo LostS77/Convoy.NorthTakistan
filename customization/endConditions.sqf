@@ -1,41 +1,50 @@
 private _westCasualty = "USARMY" call FUNC(CasualtyPercentage); //Gets the casualty percentage of team "USARMY"
-//private _eastCasualty = "VDV" call FUNC(CasualtyPercentage); //Gets the casualty percentage of team "VDV"
-private _delivered = ["USARMY", "Delivery", 0.8] call FUNC(hasExtracted);
+
+_resForce = allUnits select {side _x == west}; 
+_resAlive = _resForce select {_x call FNC_alive}; 
+_resArea = _resForce select {_x inArea "Delivery"};
+
 
 if (_westCasualty >= 75) exitWith {
-	"INSURGENT VICTORY<br />US ARMY has retreated due to casualties." call FUNC(EndMission);
+	"INSURGENT VICTORY - US ARMY DEFEAT<br />US ARMY has retreated due to casualties." call FUNC(SoftEndMission);
 };
 
-if (_delivered) exitWith {
-	"US ARMY SUCCESS<br />US ARMY has delivered the goods..." call FUNC(SoftEndMission);
+if ((count _resArea > (count _resAlive * 0.8)) && TRUCK1 inArea "Delivery" && TRUCK2 inArea "Delivery" && TRUCK3 inArea "Delivery") exitWith {
+    //"ROYAL MARINE VICTORY!<br />We managed to destroy the enemy cache and extract back to our patrol base!" call FUNC(EndMission);
+	"US ARMY MAJOR SUCCESS<br />US ARMY has delivered all of the supplies." call FUNC(SoftEndMission);
 };
 
-//if (_eastCasualty >= 75) exitWith {
-//	"USARMY VICTORY<br />VDV has retreated due to casualties." call FUNC(EndMission);
-//};
+if ((count _resArea > (count _resAlive * 0.8)) && !alive TRUCK1 && TRUCK2 inArea "Delivery" && TRUCK3 inArea "Delivery") exitWith {
+    //"ROYAL MARINE VICTORY!<br />We managed to destroy the enemy cache and extract back to our patrol base!" call FUNC(EndMission);
+	"US ARMY MINOR SUCCESS<br />US ARMY has delivered some of the supplies. Repair Truck didn't make it." call FUNC(SoftEndMission);
+};
 
-/*
-Soft Ending the Mission
-    Missions can be "soft" ended via the FUNC(SoftEndMission) function.
-    The mission end warn message will display first, then count down the time to end, then display
-    the regular endmission screen. Minimum time to wait is 5 seconds. If no warn message is given, eg:
-    ["US ARMY VICTORY<br />VDV has retreated due to casualties.", "", 30] call FUNC(SoftEndMission);
-    then function uses the regular end mission text as the warn message as well.
-    [<MISSION END MESSAGE: STRING>, <MISSION END WARN MESSAGE: STRING | OPTIONAL>, <TIME TO WAIT: NUMBER | OPTIONAL>] call FUNC(SoftEndMission);
-    eg. ["US ARMY VICTORY<br />VDV has retreated due to casualties.", "US ARMY VICTORY", 30] call FUNC(SoftEndMission);
+if ((count _resArea > (count _resAlive * 0.8)) && TRUCK1 inArea "Delivery" && !alive TRUCK2 && TRUCK3 inArea "Delivery") exitWith {
+    //"ROYAL MARINE VICTORY!<br />We managed to destroy the enemy cache and extract back to our patrol base!" call FUNC(EndMission);
+	"US ARMY MINOR SUCCESS<br />US ARMY has delivered some of the supplies. Ammo Truck didn't make it." call FUNC(SoftEndMission);
+};
 
-Alternative methods of counting casualties
+if ((count _resArea > (count _resAlive * 0.8)) && TRUCK1 inArea "Delivery" && TRUCK2 inArea "Delivery" && !alive TRUCK3 ) exitWith {
+    //"ROYAL MARINE VICTORY!<br />We managed to destroy the enemy cache and extract back to our patrol base!" call FUNC(EndMission);
+	"US ARMY MINOR SUCCESS<br />US ARMY has delivered some of the supplies. Fuel Truck didn't make it." call FUNC(SoftEndMission);
+};
 
-	"USARMY" call FUNC(casualtyCount);
-		this will count how many members of a team died in the mission
+if ((count _resArea > (count _resAlive * 0.8)) && TRUCK1 inArea "Delivery" && !alive TRUCK2 && !alive TRUCK3 ) exitWith {
+    //"ROYAL MARINE VICTORY!<br />We managed to destroy the enemy cache and extract back to our patrol base!" call FUNC(EndMission);
+	"US ARMY VERY MINOR SUCCESS<br />US ARMY has barely delivered any of the supplies. Only the Repair Truck made it." call FUNC(SoftEndMission);
+};
 
-	"USARMY" call FUNC(countTeam);
-		this will check how many players are remaining in a team
-		be careful as using this method will end the mission instantly if
-		not enough players are present in the team
+if ((count _resArea > (count _resAlive * 0.8)) && !alive TRUCK1 && TRUCK2 inArea "Delivery" && !alive TRUCK3) exitWith {
+    //"ROYAL MARINE VICTORY!<br />We managed to destroy the enemy cache and extract back to our patrol base!" call FUNC(EndMission);
+	"US ARMY VERY MINOR SUCCESS<br />US ARMY has barely delivered any of the supplies. Only the Ammo Truck made it." call FUNC(SoftEndMission);
+};
 
-Adding extraction
+if ((count _resArea > (count _resAlive * 0.8)) && !alive TRUCK1 && !alive TRUCK2 && TRUCK3 inArea "Delivery") exitWith {
+    //"ROYAL MARINE VICTORY!<br />We managed to destroy the enemy cache and extract back to our patrol base!" call FUNC(EndMission);
+	"US ARMY VERY MINOR SUCCESS<br />US ARMY has barely delivered any of the supplies. Only the Fuel Truck made it." call FUNC(SoftEndMission);
+};
 
-	["USMC", "ExtractionAreaMarker", 0.8] call FUNC(hasExtracted);
-		this will check if at least 80% of remaining forces are present in extraction area
-*/
+if ((count _resArea > (count _resAlive * 0.8)) && !alive TRUCK1 && !alive TRUCK2 && !alive TRUCK3) exitWith {
+    //"ROYAL MARINE VICTORY!<br />We managed to destroy the enemy cache and extract back to our patrol base!" call FUNC(EndMission);
+	"US ARMY MINOR DEFEAT<br />US ARMY was unable to deliver any of the supplies and barely made it out alive." call FUNC(SoftEndMission);
+};
