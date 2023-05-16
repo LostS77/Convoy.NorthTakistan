@@ -12,11 +12,11 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=1509;
+		nextID=1514;
 	};
 	class MarkerIDProvider
 	{
-		nextID=6;
+		nextID=11;
 	};
 	class LayerIndexProvider
 	{
@@ -24,10 +24,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={490.31961,357.32263,8820.4951};
-		dir[]={0.0099305846,-0.73024428,0.68311393};
-		up[]={0.010614607,0.68318617,0.73016709};
-		aside[]={0.99989432,0,-0.014535694};
+		pos[]={470.52463,39.421856,9020.1758};
+		dir[]={0.0099305892,-0.73024404,0.68311423};
+		up[]={0.010614605,0.68318641,0.73016691};
+		aside[]={0.99989438,0,-0.014535695};
 	};
 };
 binarizationWanted=0;
@@ -346,11 +346,11 @@ randomSeed=3137627;
 class ScenarioData
 {
 	author="LostS77";
-	overviewText="US Army Resupply Convoy - Need to transport Resupply from Camp ACME to Air Base CONDOM.  Insurgents are said to be in the area, be careful of ambushes.";
-	overviewTextLocked="US Army Resupply Convoy - Need to transport Resupply from Camp ACME to Air Base CONDOM.  Insurgents are said to be in the area, be careful of ambushes.";
+	overviewText="US Army Supply Convoy - Need to transport Supplies from Camp Black Rose to Air Base Skywalker.  Insurgents are said to be in the area, be careful of ambushes and possible IED's.";
+	overviewTextLocked="US Army Supply Convoy - Need to transport Supplies from Camp Black Rose to Air Base Skywalker.  Insurgents are said to be in the area, be careful of ambushes and possible IED's.";
 	overViewPicture="res\convoy2.jpg";
 	overViewPictureLocked="res\convoy.jpg";
-	onLoadMission="US Army Resupply Convoy - Need to transport Resupply from Camp ACME to Air Base CONDOM.  Insurgents are said to be in the area, be careful of ambushes.";
+	onLoadMission="US Army Supply Convoy - Need to transport Supplies from Camp Black Rose to Air Base Skywalker.  Insurgents are said to be in the area, be careful of ambushes and possible IED's.";
 	loadScreen="res\convoy.jpg";
 	disabledAI=1;
 	class Header
@@ -19364,7 +19364,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=484;
+		items=482;
 		class Item0
 		{
 			dataType="Logic";
@@ -24604,7 +24604,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={465.51807,13.821439,9038.0342};
+						position[]={465.51801,13.821439,9038.0342};
 						angles[]={0,1.6045684,0};
 					};
 					side="West";
@@ -24615,6 +24615,7 @@ class Mission
 						rank="CAPTAIN";
 						init="[this, ""US_PL""] call FW_fnc_GearScript;";
 						description="Platoon Commander @ HQ";
+						isPlayer=1;
 						isPlayable=1;
 					};
 					id=481;
@@ -25798,7 +25799,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={874.047,0.23703317,10011.285};
+				position[]={874.047,0.23703353,10011.285};
 			};
 			side="Empty";
 			class Attributes
@@ -25807,7 +25808,7 @@ class Mission
 			};
 			id=655;
 			type="CUP_c_papaver_flower04_EP1";
-			atlOffset=0.75267994;
+			atlOffset=0.7526803;
 		};
 		class Item129
 		{
@@ -26698,7 +26699,7 @@ class Mission
 					};
 					id=731;
 					type="UK3CB_MEE_I_CREW_2";
-					atlOffset=7.6293945e-006;
+					atlOffset=-0.095848083;
 				};
 				class Item1
 				{
@@ -26715,7 +26716,7 @@ class Mission
 					};
 					id=732;
 					type="UK3CB_MEE_I_CREW_2";
-					atlOffset=7.6293945e-006;
+					atlOffset=-0.095848083;
 				};
 				class Item2
 				{
@@ -26843,7 +26844,7 @@ class Mission
 				};
 			};
 			id=729;
-			atlOffset=7.6293945e-006;
+			atlOffset=-0.095848083;
 		};
 		class Item155
 		{
@@ -26860,7 +26861,7 @@ class Mission
 			};
 			id=730;
 			type="UK3CB_MEE_I_Hilux_Rocket";
-			atlOffset=7.6293945e-006;
+			atlOffset=-0.095848083;
 		};
 		class Item156
 		{
@@ -46459,48 +46460,6 @@ class Mission
 		};
 		class Item441
 		{
-			dataType="Marker";
-			position[]={454.03378,13.82,9063.1445};
-			name="StartPoint";
-			type="Empty";
-			id=1384;
-		};
-		class Item442
-		{
-			dataType="Marker";
-			position[]={586.1488,6.0300002,8748.2832};
-			name="Route1";
-			type="Empty";
-			id=1386;
-		};
-		class Item443
-		{
-			dataType="Marker";
-			position[]={1258.7271,8.8280001,9435.0088};
-			name="Route2";
-			type="Empty";
-			id=1387;
-			atlOffset=0.00048542023;
-		};
-		class Item444
-		{
-			dataType="Marker";
-			position[]={1613.704,6.0300002,9715.2969};
-			name="Route3";
-			type="Empty";
-			id=1388;
-		};
-		class Item445
-		{
-			dataType="Marker";
-			position[]={862.229,3.056,10159.502};
-			name="Route4";
-			type="Empty";
-			id=1389;
-			atlOffset=0.00044560432;
-		};
-		class Item446
-		{
 			dataType="Object";
 			class PositionInfo
 			{
@@ -46516,7 +46475,7 @@ class Mission
 			type="rhs_mine_m3_pressure";
 			atlOffset=7.6293945e-006;
 		};
-		class Item447
+		class Item442
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46533,7 +46492,7 @@ class Mission
 			type="CUP_MineE";
 			atlOffset=3.0517578e-005;
 		};
-		class Item448
+		class Item443
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46549,7 +46508,7 @@ class Mission
 			id=1392;
 			type="rhs_mine_m3_pressure";
 		};
-		class Item449
+		class Item444
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46566,7 +46525,7 @@ class Mission
 			type="CUP_MineE";
 			atlOffset=3.0517578e-005;
 		};
-		class Item450
+		class Item445
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46582,7 +46541,7 @@ class Mission
 			id=1394;
 			type="rhs_mine_m3_pressure";
 		};
-		class Item451
+		class Item446
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46599,7 +46558,7 @@ class Mission
 			type="CUP_MineE";
 			atlOffset=2.6702881e-005;
 		};
-		class Item452
+		class Item447
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46615,7 +46574,7 @@ class Mission
 			id=1396;
 			type="rhs_mine_m3_pressure";
 		};
-		class Item453
+		class Item448
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46631,7 +46590,7 @@ class Mission
 			id=1397;
 			type="CUP_MineE";
 		};
-		class Item454
+		class Item449
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46647,7 +46606,7 @@ class Mission
 			id=1398;
 			type="rhs_mine_m3_pressure";
 		};
-		class Item455
+		class Item450
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46664,7 +46623,7 @@ class Mission
 			type="CUP_MineE";
 			atlOffset=2.2888184e-005;
 		};
-		class Item456
+		class Item451
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46681,7 +46640,7 @@ class Mission
 			type="rhs_mine_m3_pressure";
 			atlOffset=3.8146973e-006;
 		};
-		class Item457
+		class Item452
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46698,7 +46657,7 @@ class Mission
 			type="CUP_MineE";
 			atlOffset=2.6702881e-005;
 		};
-		class Item458
+		class Item453
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46715,7 +46674,7 @@ class Mission
 			type="rhs_mine_m3_pressure";
 			atlOffset=3.8146973e-006;
 		};
-		class Item459
+		class Item454
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46732,7 +46691,7 @@ class Mission
 			type="CUP_MineE";
 			atlOffset=2.6702881e-005;
 		};
-		class Item460
+		class Item455
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46749,7 +46708,7 @@ class Mission
 			type="rhs_mine_m3_pressure";
 			atlOffset=3.8146973e-006;
 		};
-		class Item461
+		class Item456
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46766,7 +46725,7 @@ class Mission
 			type="CUP_MineE";
 			atlOffset=7.6293945e-006;
 		};
-		class Item462
+		class Item457
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46782,7 +46741,7 @@ class Mission
 			id=1406;
 			type="Land_Sign_MinesDanger_Greek_F";
 		};
-		class Item463
+		class Item458
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46799,7 +46758,7 @@ class Mission
 			type="Land_Sign_MinesDanger_English_F";
 			atlOffset=1.1444092e-005;
 		};
-		class Item464
+		class Item459
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46815,7 +46774,7 @@ class Mission
 			id=1408;
 			type="Land_Sign_Mines_F";
 		};
-		class Item465
+		class Item460
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46832,7 +46791,7 @@ class Mission
 			type="Sign_DangerMines_ACR";
 			atlOffset=-0.0089874268;
 		};
-		class Item466
+		class Item461
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46848,7 +46807,7 @@ class Mission
 			id=1410;
 			type="Land_Sign_MinesTall_English_F";
 		};
-		class Item467
+		class Item462
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46865,7 +46824,7 @@ class Mission
 			type="Sign_DangerMines_ACR";
 			atlOffset=-0.0016326904;
 		};
-		class Item468
+		class Item463
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46882,7 +46841,7 @@ class Mission
 			type="Land_WW2_SWU_British_Mine_Sign";
 			atlOffset=0.0034713745;
 		};
-		class Item469
+		class Item464
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46899,7 +46858,7 @@ class Mission
 			type="Land_Sign3";
 			atlOffset=1.9073486e-005;
 		};
-		class Item470
+		class Item465
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46915,7 +46874,7 @@ class Mission
 			id=1414;
 			type="Land_Sign18";
 		};
-		class Item471
+		class Item466
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46931,7 +46890,7 @@ class Mission
 			id=1415;
 			type="Land_WW2_BET_Achtung_Minen";
 		};
-		class Item472
+		class Item467
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46947,7 +46906,7 @@ class Mission
 			id=1416;
 			type="Land_Sign17";
 		};
-		class Item473
+		class Item468
 		{
 			dataType="Object";
 			class PositionInfo
@@ -46964,7 +46923,7 @@ class Mission
 			type="Land_WW2_SWU_British_Mine_Sign";
 			atlOffset=0.00078582764;
 		};
-		class Item474
+		class Item469
 		{
 			dataType="Marker";
 			position[]={2321.1123,56.709999,4839.3354};
@@ -46976,7 +46935,7 @@ class Mission
 			angle=29.993999;
 			id=1418;
 		};
-		class Item475
+		class Item470
 		{
 			dataType="Group";
 			side="West";
@@ -47460,7 +47419,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item476
+		class Item471
 		{
 			dataType="Group";
 			side="West";
@@ -47944,7 +47903,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item477
+		class Item472
 		{
 			dataType="Group";
 			side="West";
@@ -48428,7 +48387,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item478
+		class Item473
 		{
 			dataType="Group";
 			side="West";
@@ -48900,7 +48859,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item479
+		class Item474
 		{
 			dataType="Group";
 			side="West";
@@ -49157,7 +49116,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item480
+		class Item475
 		{
 			dataType="Group";
 			side="West";
@@ -49560,66 +49519,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item481
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={475.314,13.821439,9036.5664};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						isPlayer=1;
-					};
-					id=1499;
-					type="rhsusf_army_ocp_officer";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male05ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1498;
-		};
-		class Item482
+		class Item476
 		{
 			dataType="Marker";
 			position[]={496.245,13.82,9082.7773};
@@ -49629,15 +49529,53 @@ class Mission
 			colorName="ColorWEST";
 			id=1507;
 		};
-		class Item483
+		class Item477
 		{
 			dataType="Marker";
-			position[]={2321.1116,56.709999,4906.0313};
+			position[]={2321.1121,56.709999,4906.0308};
 			name="AIRBASESKYWALKER";
 			text="Air Base Skywalker";
 			type="mil_flag";
 			colorName="ColorWEST";
 			id=1508;
+		};
+		class Item478
+		{
+			dataType="Marker";
+			position[]={858.02863,3.2866821,10158.097};
+			name="Route4";
+			text="Route 4";
+			type="mil_marker";
+			id=1510;
+			atlOffset=7.1525574e-007;
+		};
+		class Item479
+		{
+			dataType="Marker";
+			position[]={1624.811,6.0300002,9713.7598};
+			name="Route3";
+			text="Route 3";
+			type="mil_marker";
+			id=1511;
+		};
+		class Item480
+		{
+			dataType="Marker";
+			position[]={1261.356,8.8839998,9429.5117};
+			name="Route2";
+			text="Route 2";
+			type="mil_marker";
+			id=1512;
+			atlOffset=-0.00019836426;
+		};
+		class Item481
+		{
+			dataType="Marker";
+			position[]={569.06799,6.0300002,8770.4443};
+			name="Route1";
+			text="Route 1";
+			type="mil_marker";
+			id=1513;
 		};
 	};
 	class Connections

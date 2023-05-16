@@ -1,5 +1,5 @@
 // Disable for release
-testingDisableFriendlyAI = false;
+testingDisableFriendlyAI = true;
 
 // Only disable debug messages when the mission is released
-debugMessagesEnabled = true;
+debugMessagesEnabled = false;

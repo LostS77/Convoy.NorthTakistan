@@ -36,6 +36,7 @@ SET_GROUP(bits)
 	["ACE_MapTools"] call FUNC(AddItem);
 	["CUP_NVG_GPNVG_black"] call FUNC(AddItem);
 	["ItemGPS"] call FUNC(AddItem);
+	["ItemAndroid"] call FUNC(AddItem);
 END_GROUP;
 
 SET_GROUP(grenades)

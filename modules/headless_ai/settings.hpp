@@ -21,11 +21,11 @@ initialRandomSpawns[] = {"hc_patrol_1", 1, "hc_patrol_2", 1, "hc_patrol_3", 1, "
 initialRandomSpawnsCount = 3;
 
 // Debug message settings
-debug = true;
-verboseDebug = true;
-groupDebug = true;
+debug = false;
+verboseDebug = false;
+groupDebug = false;
 // Turn on map markers that track AI movement
-useMarkers = true;
+useMarkers = false;
 
 // Custom viewdistance for the AI
 AIViewDistance = 2500;
