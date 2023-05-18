@@ -6,7 +6,7 @@ class west {
     distance = 50;
     spawnDistance = 200;
     spawnLocation = "";
-    dismountVehicles = true;
+    dismountVehicles = false;
     transporters[] = {};
 };
 

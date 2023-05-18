@@ -6,7 +6,7 @@ There has been a known IED threat in the area. Upon discovery, disarm and recove
 <br />
 Motorized hostile forces have been sighted patrolling the desert.<br />
 <br />
-There is civilian presense in cities.  Try to keep any colaterial damage to a minimum.
+There is civilian presense in cities.  Try to keep any colaterial damage to a minimum.<br />
 <br />
 <font color='#BBBBBB' size='16' face='PuristaBold'>Scouts report:</font><br />
 <marker name='Route1'>Route 1</marker> has a high enemy presence and some IEDs.<br />
