@@ -2,16 +2,16 @@ NEWTAB("I. Mission:")
 <font color='#BBBBBB' size='16' face='PuristaBold'>Task:</font><br/>
 US Army Platoon Black Desert is to escort mission critical trucks from <marker name='CAMPBLACKROSE'>Camp Black Rose</marker> to <marker name='AIRBASESKYWALKER'>Air Base Skywalker</marker>.<br/>
 <br />
-There has been a known IED threat in the area. Upon discovery, disarm and recover if possible or destroy.<br />
+There has been a known IED threats in the area. Upon discovery, disarm and recover if possible or destroy.<br />
 <br />
 Motorized hostile forces have been sighted patrolling the desert.<br />
 <br />
 There is civilian presense in cities.  Try to keep any colaterial damage to a minimum.<br />
 <br />
 <font color='#BBBBBB' size='16' face='PuristaBold'>Scouts report:</font><br />
-<marker name='Route1'>Route 1</marker> has a high enemy presence and some IEDs.<br />
-<marker name='Route2'>Route 2</marker>, high amount of IEDs and mines reported along with a unknown hostile composition in the vicinity.<br />
-<marker name='Route3'>Route 3</marker> and <marker name='Route4'>Route 4</marker> are advised against taking due to heavy (what the threat is, probably mines/ieds)<br />
+<marker name='Route1'>Route 1</marker> has a high enemy presence and some IED's.<br />
+<marker name='Route2'>Route 2</marker>, high amount of IED's and mines reported along with a unknown hostile composition in the vicinity.<br />
+<marker name='Route3'>Route 3</marker> and <marker name='Route4'>Route 4</marker> are advised against taking due to heavy threats (what the threat is, probably mines/IED's)<br />
 It is advised that the platoon stays on one of the routes as heavy anti-tank and anti-personnel mining operations were known to have taken place in the area.<br />
 <br />
 The platoon is to reach <marker name='AIRBASESKYWALKER'>Air Base Skywalker</marker> by t+90 and prepare for follow on operations there.<br />
@@ -26,9 +26,9 @@ Insurgents appear to be armed with AK variant type rifles<br />
 Various Land Vehicles have been known to patrol the desert.<br />
 You could run across vehicles such as:<br />
 - T-55<br />
-- BTR<br />
-- BRDM<br />
-- Heavily armed and armored trucks<br />
+- BTR 40's and 60's<br />
+- BRDM2 with ATGM<<br />
+- Heavily armed and armored trucks (Missles, ATGM, Rockets, and anything else you can imagine)<br />
 <br />
 IED's have been seen along all routes<br />
 ENDTAB;
@@ -36,16 +36,10 @@ ENDTAB;
 NEWTAB("B. Friendly Forces:")
 <font color='#BBBBBB' size='16' face='PuristaBold'>US Army Platoon - Black Desert</font><br/>
 <br />
-HQ - 1'6<br />
-Black Horse 1 - 1'1<br />
-Black Horse 2 - 1'2<br />
-Black Horse 3 - 1'3<br />
-Heavy Rain (Weapons Squad) - 1'4 or Heavy Rain<br />
-Medical Attachment - 1'7 or People Fixers<br />
-Engineering Attachment - 1'8 or Truck Fixers<br/>
-<br />
 Standard(ish) US Army Platoon armed with M4/M249 with a Weapons Squad carring Javelins and M240's.<br />
 Connvoy consisting of UGV, MRAP's, Medical Vehicle, and Supplies.<br />
+<br />
+*** You all are special so yes you might have special forces stuff, if you want loadout adjusted please give me feed back cause I don't know ***<br />
 ENDTAB;
 
 NEWTAB("II. Execution:")

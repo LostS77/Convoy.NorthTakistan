@@ -11,3 +11,5 @@ Update change log with information
 Research how to make IED's/Mines are dynamically setup so that each play through isn't the same
 Work on making desert route through mountains would be harder
 Work on making more dynamic and non-pre-programed AI and Patrols
+Consider changing loadout from M4 with BLOCK to M4A1
+MORE details of enemy forces... like PKM and stuff on vics

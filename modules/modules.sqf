@@ -8,10 +8,7 @@ Enabled modules by default, disable them by adding // in front.
 */
 
 #include "headless_ai\root.sqf"
-
 #include "acre_setup\root.sqf"
-#include "ace_medical\root.sqf"
-
 #include "jip\root.sqf"
 #include "self_actions\root.sqf"
 #include "weapon_helper\root.sqf"
