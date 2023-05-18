@@ -1,0 +1,13 @@
+Image in overview don't work... Remove it from Overview - DONE
+Fix description - DONE
+add NO AI DRIVER to description - DONE
+Add to Mission Notes: Win/Lose condition and mission creator - DONE
+Come up with call signs for Enngineering and Medical and maybe even HQ - DONE
+Tweak Friendly some... with some basic idea of what equipment people have and all of that fun stuff. - DONE
+Enemy Force - give some idea of what kind of Land Vics enemy have - DONE
+Move Thank you to Mission Notes - DONE
+Update Mission Name with correct version based off what is on web site - DONE
+Update change log with information
+Research how to make IED's/Mines are dynamically setup so that each play through isn't the same
+Work on making desert route through mountains would be harder
+Work on making more dynamic and non-pre-programed AI and Patrols

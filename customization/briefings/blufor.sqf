@@ -16,26 +16,36 @@ It is advised that the platoon stays on one of the routes as heavy anti-tank and
 <br />
 The platoon is to reach <marker name='AIRBASESKYWALKER'>Air Base Skywalker</marker> by t+90 and prepare for follow on operations there.<br />
 <br />
-//This is how you create a <marker name='markerName'>marker</marker>.
+Civilians are in the area.  Try to keep collaterial damage to a minimum.<br />
 ENDTAB;
 
 NEWTAB("A. Enemy Forces:")
 Area is crawling with Insurgents.<br />
+Insurgents appear to be armed with AK variant type rifles<br />
+<br />
 Various Land Vehicles have been known to patrol the desert.<br />
+You could run across vehicles such as:<br />
+- T-55<br />
+- BTR<br />
+- BRDM<br />
+- Heavily armed and armored trucks<br />
+<br />
 IED's have been seen along all routes<br />
 ENDTAB;
 
 NEWTAB("B. Friendly Forces:")
 <font color='#BBBBBB' size='16' face='PuristaBold'>US Army Platoon - Black Desert</font><br/>
 <br />
-HQ<br />
-Black Horse 1<br />
-Black Horse 2<br />
-Black Horse 3<br />
-Heavy Rain (Weapons Squad)<br />
-Medical Attachment<br />
-Engineering Attachment<br/>
+HQ - 1'6<br />
+Black Horse 1 - 1'1<br />
+Black Horse 2 - 1'2<br />
+Black Horse 3 - 1'3<br />
+Heavy Rain (Weapons Squad) - 1'4 or Heavy Rain<br />
+Medical Attachment - 1'7 or People Fixers<br />
+Engineering Attachment - 1'8 or Truck Fixers<br/>
 <br />
+Standard(ish) US Army Platoon armed with M4/M249 with a Weapons Squad carring Javelins and M240's.<br />
+Connvoy consisting of UGV, MRAP's, Medical Vehicle, and Supplies.<br />
 ENDTAB;
 
 NEWTAB("II. Execution:")
@@ -62,13 +72,13 @@ NEWTAB("IV. Command & Signal:")
 Platoon Net - Channel 1<br />
 <br />
 <font color='#BBBBBB' size='16' face='PuristaBold'>Short Range:</font><br/>
-Black Horse 1 - Channel 1<br />
-Black Horse 2 - Channel 2<br />
-Black Horse 3 - Channel 3<br />
-Heavy Rain - Channel 4<br />
-HQ - Channel 5<br />
-Medical Attachment - Channel 6<br />
-Enginneering Attachment - Channel 7<br />
+Black Horse 1 - 1'1 - Channel 1<br />
+Black Horse 2 - 1'2 - Channel 2<br />
+Black Horse 3 - 1'3 - Channel 3<br />
+Heavy Rain - 1'4 - Channel 4<br />
+HQ - 1'6 - Channel 5<br />
+Medical Attachment - 1'7 or People Fixers- Channel 6<br />
+Engineering Attachment - 1'8 or Truck Fixers - Channel 7<br />
 <br />
 <br />
 *** You will need to set your own channels.  I am too lazy to set them for you ***<br />

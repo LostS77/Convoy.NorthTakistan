@@ -20,18 +20,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=51;
+		nextID=52;
 	};
 	class Camera
 	{
-		pos[]={573.96863,257.75922,8944.5127};
-		dir[]={-0.20520929,-0.81364799,0.54393578};
-		up[]={-0.2872037,0.58135784,0.76127338};
-		aside[]={0.93562984,0,0.35298273};
+		pos[]={448.47058,55.969357,8971.8486};
+		dir[]={0.004352327,-0.592502,0.8055625};
+		up[]={0.0032010835,0.80556601,0.59249723};
+		aside[]={0.99999177,4.6840796e-008,-0.0054027792};
 	};
 };
 binarizationWanted=0;
-sourceName="CO50_Resupply_Convoy_V1a";
+sourceName="CO50_Resupply_Convoy_V1";
 addons[]=
 {
 	"A3_Modules_F",
@@ -346,11 +346,10 @@ randomSeed=3137627;
 class ScenarioData
 {
 	author="LostS77";
-	overviewText="US Army Supply Convoy - Need to transport Supplies from Camp Black Rose to Air Base Skywalker.  Insurgents are said to be in the area, be careful of ambushes and possible IED's.";
-	overviewTextLocked="US Army Supply Convoy - Need to transport Supplies from Camp Black Rose to Air Base Skywalker.  Insurgents are said to be in the area, be careful of ambushes and possible IED's.";
-	overViewPicture="res\convoy2.jpg";
-	overViewPictureLocked="res\convoy.jpg";
-	onLoadMission="US Army Supply Convoy - Need to transport Supplies from Camp Black Rose to Air Base Skywalker.  Insurgents are said to be in the area, be careful of ambushes and possible IED's.";
+	overviewText="US Army Supply Convoy - Need to transport Supplies from Camp Black Rose to Air Base Skywalker.  Insurgents are said to be in the area, be careful of ambushes and possible IED's. No AI Driver.";
+	overviewTextLocked="US Army Supply Convoy - Need to transport Supplies from Camp Black Rose to Air Base Skywalker.  Insurgents are said to be in the area, be careful of ambushes and possible IED's. No AI Driver.";
+	overViewPictureLocked="res\convoy2.jpg";
+	onLoadMission="US Army Supply Convoy - Need to transport Supplies from Camp Black Rose to Air Base Skywalker.  Insurgents are said to be in the area, be careful of ambushes and possible IED's. No AI Driver.";
 	loadScreen="res\convoy.jpg";
 	disabledAI=1;
 	class Header
@@ -19339,8 +19338,8 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="CO50 Resupply Convoy V1a";
-		overviewText="US Army Resupply Convoy";
+		briefingName="CO50 Resupply Convoy V1c";
+		overviewText="US Army Supply Convoy - Need to transport Supplies from Camp Black Rose to Air Base Skywalker. Insurgents are said to be in the area, be careful of ambushes and possible IED's. | NO AI DRIVER";
 		resistanceWest=0;
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
@@ -25799,7 +25798,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={874.047,0.23703389,10011.285};
+				position[]={874.047,0.23703413,10011.285};
 			};
 			side="Empty";
 			class Attributes
@@ -25808,7 +25807,7 @@ class Mission
 			};
 			id=655;
 			type="CUP_c_papaver_flower04_EP1";
-			atlOffset=0.75268066;
+			atlOffset=0.7526809;
 		};
 		class Item129
 		{
@@ -26000,7 +25999,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1605.4684,6.0314388,9727.6602};
+						position[]={1973.3207,6.0314388,9655.3408};
 					};
 					side="Independent";
 					flags=7;
@@ -26016,7 +26015,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1608.4684,6.0314388,9724.6602};
+						position[]={1976.3207,6.0314388,9652.3408};
 					};
 					side="Independent";
 					flags=5;
@@ -26033,7 +26032,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1610.4684,6.0314388,9724.6602};
+						position[]={1978.3207,6.0314388,9652.3408};
 					};
 					side="Independent";
 					flags=5;
@@ -26049,7 +26048,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1612.4684,6.0314388,9724.6602};
+						position[]={1980.3207,6.0314388,9652.3408};
 					};
 					side="Independent";
 					flags=5;
@@ -26078,7 +26077,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1340.9078,25.284031,9186.6592};
+						position[]={1310.494,18.96019,8773.9902};
 					};
 					side="Independent";
 					flags=7;
@@ -26088,13 +26087,14 @@ class Mission
 					};
 					id=674;
 					type="UK3CB_MEE_I_TL";
+					atlOffset=5.7220459e-006;
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1343.9078,25.089268,9183.6592};
+						position[]={1313.494,19.039602,8770.9902};
 					};
 					side="Independent";
 					flags=5;
@@ -26105,14 +26105,14 @@ class Mission
 					};
 					id=675;
 					type="UK3CB_MEE_I_AT";
-					atlOffset=1.9073486e-006;
+					atlOffset=7.6293945e-006;
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1345.9078,24.834534,9183.6592};
+						position[]={1315.494,19.214167,8770.9902};
 					};
 					side="Independent";
 					flags=5;
@@ -26122,13 +26122,14 @@ class Mission
 					};
 					id=676;
 					type="UK3CB_MEE_I_AT_ASST";
+					atlOffset=3.8146973e-006;
 				};
 				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1347.9078,24.571205,9183.6592};
+						position[]={1317.494,19.380833,8770.9902};
 					};
 					side="Independent";
 					flags=5;
@@ -26138,13 +26139,14 @@ class Mission
 					};
 					id=677;
 					type="UK3CB_MEE_I_RIF_1";
-					atlOffset=1.9073486e-006;
+					atlOffset=5.7220459e-006;
 				};
 			};
 			class Attributes
 			{
 			};
 			id=673;
+			atlOffset=5.7220459e-006;
 		};
 		class Item142
 		{
@@ -26551,6 +26553,7 @@ class Mission
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
 					position[]={889.15503,6.0300002,9655.0137};
+					combat="COMBAT";
 					class Effects
 					{
 					};
@@ -26722,14 +26725,14 @@ class Mission
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
-					position[]={688.185,13.510282,8539.7793};
+					position[]={688.185,13.510142,8539.7803};
+					combat="COMBAT";
 					class Effects
 					{
 					};
 					showWP="NEVER";
 					id=974;
 					type="Move";
-					atlOffset=6.6757202e-005;
 				};
 				class Item3
 				{
@@ -26876,7 +26879,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={1189.4559,15.163627,8756.6973};
-						angles[]={0.19739641,0,0.11120538};
+						angles[]={0.19739674,0,0.11121238};
 					};
 					side="Independent";
 					flags=4;
@@ -26885,7 +26888,7 @@ class Mission
 					};
 					id=735;
 					type="UK3CB_MEE_I_CREW_2";
-					atlOffset=-0.14408112;
+					atlOffset=-0.14399719;
 				};
 				class Item1
 				{
@@ -26893,7 +26896,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={1189.3197,17.31406,8756.8184};
-						angles[]={0.19739641,0,0.11120538};
+						angles[]={0.19739674,0,0.11121238};
 					};
 					side="Independent";
 					flags=6;
@@ -26902,20 +26905,20 @@ class Mission
 					};
 					id=736;
 					type="UK3CB_MEE_I_CREW_2";
-					atlOffset=-0.14408112;
+					atlOffset=-0.14399719;
 				};
 				class Item2
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
-					position[]={1714.9094,15.426169,8645.0215};
+					position[]={1714.9091,15.42621,8645.0215};
+					combat="COMBAT";
 					class Effects
 					{
 					};
 					showWP="NEVER";
 					id=966;
 					type="Move";
-					atlOffset=-2.7656555e-005;
 				};
 				class Item3
 				{
@@ -27042,15 +27045,15 @@ class Mission
 				};
 			};
 			id=733;
-			atlOffset=-0.14408112;
+			atlOffset=-0.14399719;
 		};
 		class Item157
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2054.7666,94.149361,6938.2476};
-				angles[]={0.19739641,0,0.11120538};
+				position[]={2054.7661,94.149406,6938.2476};
+				angles[]={0.19739674,0,0.11121238};
 			};
 			side="Independent";
 			flags=6;
@@ -27059,7 +27062,24 @@ class Mission
 			};
 			id=734;
 			type="UK3CB_MEE_I_Hilux_M2";
-			atlOffset=-0.14408112;
+			atlOffset=-0.14399719;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""FirstAidKit""],[1]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item158
 		{
@@ -27106,14 +27126,14 @@ class Mission
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
-					position[]={811.02026,13.614662,8301.6523};
+					position[]={811.02002,13.614821,8301.6523};
+					combat="COMBAT";
 					class Effects
 					{
 					};
 					showWP="NEVER";
 					id=945;
 					type="Move";
-					atlOffset=-0.00011539459;
 				};
 				class Item3
 				{
@@ -27280,14 +27300,14 @@ class Mission
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
-					position[]={955.77869,20.94524,8307.1221};
+					position[]={955.77899,20.945528,8307.1221};
+					combat="COMBAT";
 					class Effects
 					{
 					};
 					showWP="NEVER";
 					id=951;
 					type="Move";
-					atlOffset=-0.0002117157;
 				};
 				class Item3
 				{
@@ -27480,7 +27500,8 @@ class Mission
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
-					position[]={1316.5872,14.499527,8272.2559};
+					position[]={1316.587,14.499516,8272.2559};
+					combat="COMBAT";
 					class Effects
 					{
 					};
@@ -27666,14 +27687,15 @@ class Mission
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
-					position[]={1173.7069,96.928131,7521.7031};
+					position[]={1173.707,96.928116,7521.7031};
+					combat="COMBAT";
 					class Effects
 					{
 					};
 					showWP="NEVER";
 					id=981;
 					type="Move";
-					atlOffset=2.2888184e-005;
+					atlOffset=7.6293945e-006;
 				};
 				class Item3
 				{
@@ -27867,14 +27889,15 @@ class Mission
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
-					position[]={959.10492,24.946033,8093.2437};
+					position[]={959.10498,24.945988,8093.2441};
+					combat="COMBAT";
 					class Effects
 					{
 					};
 					showWP="NEVER";
 					id=989;
 					type="Move";
-					atlOffset=4.3869019e-005;
+					atlOffset=-1.9073486e-006;
 				};
 				class Item3
 				{
@@ -33222,7 +33245,7 @@ class Mission
 			flags=1;
 			id=842;
 			type="ModuleCivilianPresenceSafeSpot_F";
-			atlOffset=3.0081758;
+			atlOffset=3.0082197;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -40440,7 +40463,8 @@ class Mission
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
-					position[]={142.14587,101.71997,6450.3477};
+					position[]={142.146,101.71994,6450.3481};
+					combat="COMBAT";
 					class Effects
 					{
 					};
@@ -41944,6 +41968,7 @@ class Mission
 			angle=0.52386051;
 			class Attributes
 			{
+				name="IED_RT_1_Trigger_2";
 				onActivation="IED_RT_1_2 setDamage 100;";
 				sizeA=1.01;
 				sizeB=4.0939999;
@@ -41976,21 +42001,22 @@ class Mission
 		class Item366
 		{
 			dataType="Trigger";
-			position[]={872.04736,77.680199,5442.376};
-			angle=6.264605;
+			position[]={872.047,77.68,5442.376};
+			angle=6.2645965;
 			class Attributes
 			{
+				name="IED_RT_1_Trigger_3";
 				onActivation="IED_RT_1_2 setDamage 100;";
 				sizeA=1.01;
 				sizeB=4.0939999;
-				sizeC=0.35019672;
+				sizeC=0.34999999;
 				activationBy="WEST";
 				isRectangle=1;
 				isServerOnly=1;
 			};
 			id=1119;
 			type="EmptyDetector";
-			atlOffset=1.3501968;
+			atlOffset=1.3499985;
 		};
 		class Item367
 		{
@@ -44371,7 +44397,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2231.7363,7.729248,8773.8955};
-				angles[]={-0,0,0.003311686};
+				angles[]={0,0,0.003311686};
 			};
 			side="Empty";
 			flags=4;
@@ -44388,7 +44414,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2233.8828,7.7363281,8777.4404};
-				angles[]={-0,0,0.003311686};
+				angles[]={0,0,0.003311686};
 			};
 			side="Empty";
 			flags=4;
@@ -44954,14 +44980,14 @@ class Mission
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
-					position[]={1421.9559,19.298828,8816.748};
+					position[]={1421.9561,19.298824,8816.748};
+					combat="COMBAT";
 					class Effects
 					{
 					};
 					showWP="NEVER";
 					id=1376;
 					type="Move";
-					atlOffset=5.7220459e-006;
 				};
 				class Item3
 				{
@@ -45149,7 +45175,8 @@ class Mission
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
-					position[]={647.92584,6.0300002,8594.6504};
+					position[]={647.92603,6.0300002,8594.6504};
+					combat="COMBAT";
 					class Effects
 					{
 					};
@@ -45343,7 +45370,8 @@ class Mission
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
-					position[]={1339.4795,21.461418,8400.6074};
+					position[]={1339.479,21.461365,8400.6074};
+					combat="COMBAT";
 					class Effects
 					{
 					};
@@ -45536,14 +45564,14 @@ class Mission
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
-					position[]={1836.3188,18.593994,8617.4561};
+					position[]={1836.319,18.593884,8617.4561};
+					combat="COMBAT";
 					class Effects
 					{
 					};
 					showWP="NEVER";
 					id=1345;
 					type="Move";
-					atlOffset=0.00011062622;
 				};
 				class Item3
 				{
@@ -45718,7 +45746,8 @@ class Mission
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
-					position[]={651.11975,6.1343908,8580.3516};
+					position[]={651.12,6.1344008,8580.3516};
+					combat="COMBAT";
 					class Effects
 					{
 					};
@@ -45911,13 +45940,15 @@ class Mission
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
-					position[]={1539.6365,19.181469,8866.3301};
+					position[]={1539.636,19.181496,8866.3301};
+					combat="COMBAT";
 					class Effects
 					{
 					};
 					showWP="NEVER";
 					id=1335;
 					type="Move";
+					atlOffset=-1.9073486e-006;
 				};
 				class Item3
 				{
@@ -46129,6 +46160,7 @@ class Mission
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
 					position[]={1147.7209,17.212732,8064.3838};
+					combat="COMBAT";
 					class Effects
 					{
 					};
@@ -46310,7 +46342,8 @@ class Mission
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
-					position[]={1564.2162,18.06279,8707.0752};
+					position[]={1564.2159,18.062786,8707.0752};
+					combat="COMBAT";
 					class Effects
 					{
 					};
@@ -49377,7 +49410,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={461.60889,13.821439,9009.6025};
+						position[]={461.60901,13.821439,9009.6025};
 					};
 					side="West";
 					flags=5;
@@ -49385,7 +49418,7 @@ class Mission
 					{
 						rank="CORPORAL";
 						init="[this, ""US_ENGR""] call FW_fnc_GearScript;";
-						description="Gunner @ Engineering Attachment";
+						description="Rifleman - M977 M2 Gunner @ Engineering Attachment";
 						isPlayable=1;
 					};
 					id=1490;
@@ -49439,7 +49472,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={460.5069,13.821439,9003.374};
+						position[]={460.50699,13.821439,9003.374};
 					};
 					side="West";
 					flags=5;
@@ -49447,7 +49480,7 @@ class Mission
 					{
 						rank="CORPORAL";
 						init="[this, ""US_ENGR""] call FW_fnc_GearScript;";
-						description="Gunner @ Engineering Attachment";
+						description="Rifleman - M977 M2 Gunner @ Engineering Attachment";
 						isPlayable=1;
 					};
 					id=1491;
