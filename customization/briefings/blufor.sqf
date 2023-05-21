@@ -1,3 +1,26 @@
+/*
+private _gc_lead = "<font size='13' face='PuristaSemibold'>(not slotted)</font>";
+private _gc_psg = "<font size='13' face='PuristaSemibold'>(not slotted)</font>";
+private _gc_sl1 = "<font size='13' face='PuristaSemibold'>(not slotted)</font>";
+private _gc_sl2 = "<font size='13' face='PuristaSemibold'>(not slotted)</font>";
+private _gc_sl4 = "<font size='13' face='PuristaSemibold'>(not slotted)</font>";
+
+if (!isNil "gc_lead") then { _gc_lead = "<font size='13' color='#d00000' face='PuristaSemibold'>(" + name gc_lead + ")</font>"; };
+if (!isNil "gc_psg") then { _gc_psg = "<font size='13' color='#d00000' face='PuristaSemibold'>(" + name gc_psg + ")</font>"; };
+if (!isNil "gc_sl1") then { _gc_sl1 = "<font size='13' color='#d00000' face='PuristaSemibold'>(" + name gc_sl1 + ")</font>"; };
+if (!isNil "gc_sl2") then { _gc_sl2 = "<font size='13' color='#d00000' face='PuristaSemibold'>(" + name gc_sl2 + ")</font>"; };
+if (!isNil "gc_sl4") then { _gc_sl4 = "<font size='13' color='#d00000' face='PuristaSemibold'>(" + name gc_sl4 + ")</font>"; };
+
+<br/><font color='#BBBBBB' size='16' face='PuristaBold'>V. ComSig:</font>
+<br/>Golf 2-6: Platoon Commander " + _gc_lead + "
+<br/>Golf 2-5: Platoon Sergeant " + _gc_psg + "
+<br/>Golf 2-1: 1st Squad Leader " + _gc_sl1 + "
+<br/>Golf 2-2: 2nd Squad Leader " + _gc_sl2 + "
+<br/>Golf 2-4: Weapons Squad Leader " + _gc_sl4 + "
+*/
+
+
+
 NEWTAB("I. Mission:")
 <font color='#BBBBBB' size='16' face='PuristaBold'>Task:</font><br/>
 US Army Platoon Black Desert is to escort mission critical trucks from <marker name='CAMPBLACKROSE'>Camp Black Rose</marker> to <marker name='AIRBASESKYWALKER'>Air Base Skywalker</marker>.<br/>
