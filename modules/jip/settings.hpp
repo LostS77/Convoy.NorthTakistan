@@ -16,7 +16,7 @@ class east {
     distance = 50;
     spawnDistance = 200;
     spawnLocation = "";
-    dismountVehicles = true;
+    dismountVehicles = false;
     transporters[] = {};
 };
 
@@ -26,7 +26,7 @@ class independent {
     distance = 50;
     spawnDistance = 200;
     spawnLocation = "";
-    dismountVehicles = true;
+    dismountVehicles = false;
     transporters[] = {};
 };
 
@@ -36,6 +36,6 @@ class civilian {
     distance = 50;
     spawnDistance = 200;
     spawnLocation = "";
-    dismountVehicles = true;
+    dismountVehicles = false;
     transporters[] = {};
 };

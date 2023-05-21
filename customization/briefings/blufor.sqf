@@ -70,9 +70,9 @@ Black Horse 1 - 1'1 - Channel 1<br />
 Black Horse 2 - 1'2 - Channel 2<br />
 Black Horse 3 - 1'3 - Channel 3<br />
 Heavy Rain - 1'4 - Channel 4<br />
-HQ - 1'6 - Channel 5<br />
-Medical Attachment - 1'7 or People Fixers- Channel 6<br />
-Engineering Attachment - 1'8 or Truck Fixers - Channel 7<br />
+HQ - 1'6 - Channel 6<br />
+Medical Attachment - 1'7 or People Fixers- Channel 7<br />
+Engineering Attachment - 1'8 or Truck Fixers - Channel 8<br />
 <br />
 <br />
 *** You will need to set your own channels.  I am too lazy to set them for you ***<br />

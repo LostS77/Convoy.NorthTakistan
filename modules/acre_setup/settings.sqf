@@ -115,7 +115,7 @@ GVAR(ACRE_Languages_Babel) = [
 //ADD RACKS TO VEHICLES
 ///////////////////////
 
-GVAR(ACRE_Enable_AddRacks) = false;
+GVAR(ACRE_Enable_AddRacks) = true;
 GVAR(ACRE_Enable_AddRackDebug) = false;
 
 /* params:
@@ -155,9 +155,9 @@ GVAR(ACRE_Enable_AddRackDebug) = false;
 GVAR(ACRE_ORRList) = [
 	//These examples will cause errors if you do not comment them out or remove them.
 	//If you want to test the module, make an object and give it the variable name accVic, or change this name to whatever you want it to be
-	["accVic", "ACRE_VRC103", true, false, ["Radio Rack One", "R1"], ["driver",["cargo",0], ["cargo",1]], ["cargo"], west],
-	["accVic", "ACRE_VRC103", false, true, ["Radio Rack Two", "R2"], ["driver",["cargo",0], ["cargo",1]], ["cargo"], west],
-	["accVic", "ACRE_VRC103", true, true, ["Radio Rack Three", "R3"], ["driver", ["cargo",0]], ["cargo"], west]
+	//["accVic", "ACRE_VRC103", true, false, ["Radio Rack One", "R1"], ["driver",["cargo",0], ["cargo",1]], ["cargo"], west],
+	//["accVic", "ACRE_VRC103", false, true, ["Radio Rack Two", "R2"], ["driver",["cargo",0], ["cargo",1]], ["cargo"], west],
+	//["accVic", "ACRE_VRC103", true, true, ["Radio Rack Three", "R3"], ["driver", ["cargo",0]], ["cargo"], west]
 	/*	For whitelisted/blacklisted positions
 	 *	If you wish to limit access to the rack to certain specific seats use this array setyp:
 	 *	[_name, _num]
@@ -166,6 +166,22 @@ GVAR(ACRE_ORRList) = [
 	 *	You will need to add one for each position if you say, blacklist all of cargo but make specific exceptions.
 	 *	Example above.
 	*/
+	["MRAP1", "ACRE_VRC103", true, false, ["Rack Upper", "Radio"], ["gunner", ["turret", "all"], ["turnedOut", "all"], ["cargo", "all"], ["ffv", "all"]], ["driver", "commander"], west],
+	["MRAP2", "ACRE_VRC103", true, false, ["Rack Upper", "Radio"], ["gunner", ["turret", "all"], ["turnedOut", "all"], ["cargo", "all"], ["ffv", "all"]], ["driver", "commander"], west],
+	["MRAP3", "ACRE_VRC103", true, false, ["Rack Upper", "Radio"], ["gunner", ["turret", "all"], ["turnedOut", "all"], ["cargo", "all"], ["ffv", "all"]], ["driver", "commander"], west],
+	["MRAP4", "ACRE_VRC103", true, false, ["Rack Upper", "Radio"], ["gunner", ["turret", "all"], ["turnedOut", "all"], ["cargo", "all"], ["ffv", "all"]], ["driver", "commander"], west],
+	//["MRAP2", "ACRE_VRC103", true, false, ["Vehicle Radio", "Radio"], ["crew",["cargo", "all"]], [], west],
+	//["MRAP3", "ACRE_VRC103", true, false, ["Vehicle Radio", "Radio"], ["crew",["cargo", "all"]], [], west],
+	//["MRAP4", "ACRE_VRC103", true, false, ["Vehicle Radio", "Radio"], ["crew",["cargo", "all"]], [], west],
+	//["HQ", "ACRE_VRC103", true, false, ["Vehicle Radio", "Radio"], ["crew",["cargo", "all"]], [], west],
+	["MEDICAL", "ACRE_VRC110", true, false, ["Dash Upper", "Radio"], ["crew",["cargo", "all"]], [], west],
+	["MEDICAL", "ACRE_VRC103", true, false, ["Dash Lower", "Radio"], ["crew",["cargo", "all"]], [], west],
+	["TRUCK1", "ACRE_VRC110", true, false, ["Dash Upper", "Radio"], ["crew",["cargo", "all"]], [], west],
+	["TRUCK1", "ACRE_VRC103", true, false, ["Dash Lower", "Radio"], ["crew",["cargo", "all"]], [], west],
+	["TRUCK2", "ACRE_VRC110", true, false, ["Dash Upper", "Radio"], ["crew",["cargo", "all"]], [], west],
+	["TRUCK2", "ACRE_VRC103", true, false, ["Dash Lower", "Radio"], ["crew",["cargo", "all"]], [], west],
+	["TRUCK3", "ACRE_VRC110", true, false, ["Dash Upper", "Radio"], ["crew",["cargo", "all"]], [], west],
+	["TRUCK3", "ACRE_VRC103", true, false, ["Dash Lower", "Radio"], ["crew",["cargo", "all"]], [], west]
 	//["inaccVic", "ACRE_VRC103", true, false, ["Vehicle Radio", "Radio"], ["external"], ["cargo"], east]
 ];
 

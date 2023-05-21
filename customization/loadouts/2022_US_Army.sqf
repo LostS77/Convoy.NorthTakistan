@@ -94,6 +94,30 @@ case (package + "RTO"): {
 	ADD_GROUP(M4);
 };
 
+//Lead Medic
+//[this, "US_MED"] call FW_fnc_GearScript;
+case (package + "TL_MED"): { 
+	["rhsusf_spcs_ocp_medic"] call FUNC(AddItem);
+	ADD_GROUP(clothing);
+	ADD_GROUP(IFAK);
+	ADD_GROUP(bits);
+	ADD_GROUP(grenades);
+	ADD_GROUP(M4);
+	["ACE_surgicalKit",1,"backpack"] call FUNC(AddItem);
+	["ACE_fieldDressing", 25, "backpack"] call FUNC(AddItem);
+	["ACE_elasticBandage", 25, "backpack"] call FUNC(AddItem);
+	["ACE_packingBandage", 25, "backpack"] call FUNC(AddItem);
+	["ACE_quikclot", 25, "backpack"] call FUNC(AddItem);
+	["ACE_morphine", 15, "backpack"] call FUNC(AddItem);
+	["ACE_epinephrine", 15, "backpack"] call FUNC(AddItem);
+	["ACE_tourniquet", 10, "backpack"] call FUNC(AddItem);
+  	["ACE_splint", 10, "backpack"] call FUNC(AddItem);
+	["ACE_salineIV_250",8,"backpack"] call FUNC(AddItem);
+ 	["ACE_salineIV_500",6,"backpack"] call FUNC(AddItem);
+	["ACRE_PRC152", 1] call FUNC(AddItem);
+};
+
+
 //Combat Medic
 //[this, "US_MED"] call FW_fnc_GearScript;
 case (package + "MED"): { 
@@ -276,6 +300,7 @@ case (package + "TL_ENG"): {
 	ADD_GROUP(bits);
 	ADD_GROUP(grenades);
 	ADD_GROUP(M4);
+	["ACRE_PRC152", 1] call FUNC(AddItem);
 };
 
 //Engineer
