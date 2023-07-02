@@ -14,8 +14,10 @@ NEWTAB("Changelog")
 - Update briefing more to have more intel and stuff<br />
 - Remove the ACE Medical Module as it isn't needed<br />
 <br />
-<font color='#FFF' size='14' face='RobotoCondensedBold'>Version 2:</font><br />
+<font color='#FFF' size='14' face='RobotoCondensedBold'>Version 1e:</font><br />
 - Added Rack Radios to all Vehicles<br />
 - Removed Medical Vehicle requirments for Stitching<br />
 - Pre-set short range radio channels<br />
+<font color='#FFF' size='14' face='RobotoCondensedBold'>Version 1f:</font><br />
+- Now with AI Drivers<br />
 ENDTAB;

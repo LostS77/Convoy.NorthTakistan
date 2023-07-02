@@ -13,3 +13,4 @@ Enabled modules by default, disable them by adding // in front.
 #include "self_actions\root.sqf"
 #include "weapon_helper\root.sqf"
 #include "ai_link\root.sqf"
+#include "ai_drivers\root.sqf"

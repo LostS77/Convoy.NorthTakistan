@@ -12,9 +12,7 @@ NEWTAB("V. Mission notes:") //This is shown for everyone
 <br/> ----  80% OF US ARMY EXTRACTED + 1 SUPPLIES TRUCKS DELIVERED - US ARMY VERY MINOR VICTORY
 <br/> ----  80% OF US ARMY EXTRACTED + 0 SUPPLIES TRUCKS DELIVERED - INSURGENT VICTORY
 <br/>
-Please note for medical team. You can only do stitching from within the Medical Vehicle.  So anyone who requires medical attention, needs to make their way back to Medical Attachment vehicle, or they need to move forward.<br />
-Lead Doctor - Is a Doctor with a higher skill in medical actions.<br />
-All other medics are Combat Medics - They can still stitch and stuff, just not at skilled.<br />
+Yes AI Driver is ENABLED (But I am not a fan of it)<br/>
 All Engineers and Explosive Specialist are members of EOD<br />
 You can use the supply trucks to repair/rearm/refuel platoon vehicles, but try to not use all of the resources<br />
 <br/>
